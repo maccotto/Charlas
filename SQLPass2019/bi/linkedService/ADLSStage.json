@@ -1,0 +1,14 @@
+{
+	"name": "ADLSStage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Data Lake Storage Stage",
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://triggerdb.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "614f6da3-ac0b-4dfe-af3f-065bbd61d123",
+			"subscriptionId": "d17d005e-a89a-4072-874f-e1322fb30ae9",
+			"resourceGroupName": "BI2019"
+		}
+	}
+}
