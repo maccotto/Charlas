@@ -3,7 +3,7 @@
 Aquí dejo el material usado en mis charlas que di en el Datasummit 2019
 ## Modern BI Solutions on Azure
 
-Presentación que hice en el SQLDataSummit 2019 en el cual hablé sobre como modernizar una solución de BI usando los servicios de Microsoft Azure
+[Presentación](../DataSummit2019/ModernBI/SQL%20Argentina%20-%20BI.pdf)
 
 También dejo los siguientes links que use para mis demos en dicha charla.
 
