@@ -9,4 +9,5 @@ También dejo los siguientes links que use para mis demos en dicha charla.
 
 [Load data from Azure Data Lake Storage to SQL Data Warehouse](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-load-from-azure-data-lake-store)
 
+[Load data into Azure SQL Data Warehouse by using Azure Data Factory] (https://docs.microsoft.com/en-us/azure/data-factory/load-azure-sql-data-warehouse?toc=/azure/sql-data-warehouse/toc.json)
 
