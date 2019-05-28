@@ -19,6 +19,8 @@ También dejo los siguientes links que use para mis demos en dicha charla.
 
 Links de interes
 
-[Instalación y configuración de SQLML] (https://www.triggerdb.com/instalar-sql-machine-learning/)
+[Instalación y configuración de SQLML] (https://www.triggerdb.com/instalar-sql-machine-learning)
+
 [SQL Machine Learning sp_execute_external_script](https://www.triggerdb.com/sql-machine-learning-sp-execute-external-script/)
+
 [Creando modelos en SQLML](https://www.triggerdb.com/sql-machine-learning-modelos/)
