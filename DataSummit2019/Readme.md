@@ -1,4 +1,4 @@
-# Material charla DataSummit 2019
+# Material charlas DataSummit 2019
 
 Aquí dejo el material usado en mis charlas que di en el Datasummit 2019
 ## Modern BI Solutions on Azure
