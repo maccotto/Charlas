@@ -1,4 +1,6 @@
 # Material charla DataSummit 2019
+
+Aquí dejo el material usado en mis charlas que di en el Datasummit 2019
 ## Modern BI Solutions on Azure
 
 Presentación que hice en el SQLDataSummit 2019 en el cual hablé sobre como modernizar una solución de BI usando los servicios de Microsoft Azure
@@ -10,3 +12,4 @@ También dejo los siguientes links que use para mis demos en dicha charla.
 [Load data from Azure Data Lake Storage to SQL Data Warehouse](https://docs.microsoft.com/en-us/azure/sql-data-warehouse/sql-data-warehouse-load-from-azure-data-lake-store)
 
 [Load data into Azure SQL Data Warehouse by using Azure Data Factory](https://docs.microsoft.com/en-us/azure/data-factory/load-azure-sql-data-warehouse?toc=/azure/sql-data-warehouse/toc.json)
+
