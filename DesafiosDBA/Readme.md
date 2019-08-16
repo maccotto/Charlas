@@ -5,3 +5,5 @@ El pasado 15 de agosto ofrecí una charla en el consejo profesional de ciencias 
 
 ### Autor: Maximiliano Accotto
 ### Empresa: [Triggerdb Consulting SRL](https://www.triggerdb.com)
+
+<img src="Desafios del dba.pdf" alt="some text"  width="4200" height="4200">
