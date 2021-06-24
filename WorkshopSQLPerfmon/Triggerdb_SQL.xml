@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?Copyright (c) Microsoft Corporation. All rights reserved.?>
+<DataCollectorSet>
+<Name>TRIGGERDB_SQL_SERVER</Name>
+<DisplayName>TRIGGERDB_SQLSERVER</DisplayName>
+<Description>TRIGGERDB SQL</Description>
+<Keyword>CPU</Keyword>
+<Keyword>Memory</Keyword>
+<Keyword>Disk</Keyword>
+<Keyword>Network</Keyword>
+<Keyword>Performance</Keyword>
+<RootPath>%systemdrive%\perflogs\System\Performance</RootPath>
+<SubdirectoryFormat>3</SubdirectoryFormat>
+<SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
+<PerformanceCounterDataCollector>
+    <Name>TRIGGERDB_SQL_SERVER</Name>
+    <SampleInterval>1</SampleInterval>
+    <Counter>\LogicalDisk(*)\Avg. Disk sec/Read</Counter>
+    <Counter>\LogicalDisk(*)\Avg. Disk sec/Transfer</Counter>
+    <Counter>\LogicalDisk(*)\Avg. Disk sec/Write</Counter>
+    <Counter>\LogicalDisk(*)\Disk Reads/sec</Counter>
+    <Counter>\LogicalDisk(*)\Disk Transfers/sec</Counter>
+    <Counter>\LogicalDisk(*)\Disk Writes/sec</Counter>
+    <Counter>\Memory\Available MBytes</Counter>
+    <Counter>\Processor(*)\% Privileged Time</Counter>
+    <Counter>\Processor(*)\% Processor Time</Counter>
+    <Counter>\SQLServer:Buffer Manager\Buffer cache hit ratio</Counter>
+    <Counter>\SQLServer:Buffer Manager\Checkpoint pages/sec</Counter>
+    <Counter>\SQLServer:Buffer Manager\Page life expectancy</Counter>
+    <Counter>\SQLServer:Buffer Manager\Page reads/sec</Counter>
+    <Counter>\SQLServer:Buffer Manager\Page writes/sec</Counter>
+    <Counter>\SQLServer:General Statistics\Logins/sec</Counter>
+    <Counter>\SQLServer:General Statistics\Logouts/sec</Counter>
+    <Counter>\SQLServer:SQL Statistics\Batch Requests/sec</Counter>
+</PerformanceCounterDataCollector>
+<DataManager>
+    <Enabled>-1</Enabled>
+    <CheckBeforeRunning>-1</CheckBeforeRunning>
+    <MinFreeDisk>200</MinFreeDisk>
+    <MaxSize>1024</MaxSize>
+    <MaxFolderCount>100</MaxFolderCount>
+    <ResourcePolicy>0</ResourcePolicy>
+    <FolderAction>
+        <Size>0</Size>
+        <Age>1</Age>
+        <Actions>3</Actions>
+    </FolderAction>
+    <FolderAction>
+        <Size>0</Size>
+        <Age>56</Age>
+        <Actions>8</Actions>
+    </FolderAction>
+    <FolderAction>
+        <Size>0</Size>
+        <Age>168</Age>
+        <Actions>26</Actions>
+    </FolderAction>
+    <ReportSchema>
+        <Report name="PAL Report" version="1" threshold="100">
+            <Import file="%systemroot%\pla\reports\Report.System.Common.xml"/>
+            <Import file="%systemroot%\pla\reports\Report.System.Summary.xml"/>
+            <Import file="%systemroot%\pla\reports\Report.System.Performance.xml"/>
+            <Import file="%systemroot%\pla\reports\Report.System.CPU.xml"/>
+            <Import file="%systemroot%\pla\reports\Report.System.Network.xml"/>
+            <Import file="%systemroot%\pla\reports\Report.System.Disk.xml"/>
+            <Import file="%systemroot%\pla\reports\Report.System.Memory.xml"/>
+        </Report>
+    </ReportSchema>
+    <Rules>
+        <Logging level="15" file="rules.log"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Common.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Summary.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Performance.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.CPU.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Network.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Disk.xml"/>
+        <Import file="%systemroot%\pla\rules\Rules.System.Memory.xml"/>
+    </Rules>
+</DataManager>
+</DataCollectorSet>
