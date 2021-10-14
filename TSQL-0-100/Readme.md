@@ -22,13 +22,13 @@ En este documento se definen los requerimientos que usaremos en el curso gratuit
 
 1. <span style="font-family: &quot;Times New Roman&quot;, serif; font-size: 12pt;">Abrir el SSMS&nbsp;</span> 
 
-![2021-10-14_9-05-13.png](attachment:image.png)
+![](2021-10-14_9-05-13.png)
 
 2. Poner los datos de acceso al SQL Server 2019 y sus credenciales, si es local en nombre de la instancia se puede escribir (.) punto o localhost
 
-![(2021-10-14_9-07-11.png)](attachment:image0.png)
+![](2021-10-14_9-07-11.png)
 
-![2021-10-14_9-11-24.png](attachment:image0.png)
+![](2021-10-14_9-11-24.png)
 
 **Base de datos de ejemplo:**
 
