@@ -42,4 +42,4 @@ En este documento se definen los requerimientos que usaremos en el curso gratuit
 # **Videos de las clases**
 
 **Clase 01**
-[![IMAGE_ALT](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://www.youtube.com/watch?v=hvQu2S2-SGI)
+[![IMAGE_ALT](https://img.youtube.com/vi/hvQu2S2-SGI/0.jpg)](https://www.youtube.com/watch?v=hvQu2S2-SGI)
