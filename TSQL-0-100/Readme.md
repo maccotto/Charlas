@@ -38,3 +38,8 @@ En este documento se definen los requerimientos que usaremos en el curso gratuit
   
 
 [AdventureWorks sample databases - SQL Server | Microsoft Docs](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
+
+# **Videos de las clases**
+
+**Clase 01**
+[![IMAGE_ALT](https://img.youtube.com/vi/UmX4kyB2wfg/0.jpg)](https://www.youtube.com/watch?v=hvQu2S2-SGI)
